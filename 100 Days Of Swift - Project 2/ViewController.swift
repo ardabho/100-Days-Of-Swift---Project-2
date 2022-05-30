@@ -8,7 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
+    
+    var countries = [String]()
+    var score: Int
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
